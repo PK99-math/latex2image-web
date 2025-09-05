@@ -5,11 +5,7 @@ const express = require('express');
 const promiseRouter = require('express-promise-router');
 const queue = require('express-queue');
 const sharp = require('sharp');
-const Promise = require('bluebird');
-
-const port = 3001;
-
-const staticDir = 'static';
+const
 const tempDir = 'temp';
 const outputDir = 'output';
 const httpOutputDir = 'output';
